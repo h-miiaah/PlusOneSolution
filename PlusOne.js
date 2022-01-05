@@ -18,3 +18,11 @@
     }
     return digits;
 };
+
+
+/*
+
+-We start with the last digit of the number and work our way up.
+
+
+*/
