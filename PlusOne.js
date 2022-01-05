@@ -13,4 +13,7 @@
             digits[i] = 0 ; 
         }
     }
+    if (carry == 1){
+        digits.unshift(1);
+    }
 };
