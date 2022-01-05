@@ -24,6 +24,6 @@
 
 - We start with the last digit of the number and work our way up.
 - Check if the last digit is 9. If it is, we set it to 0 and carry 1 to the next digit.
-
+- If the carry is 1 after this step, it means that all digits are 9. In this case, we prepend a 1 to the beginning of the array and we are done.
 
 */
