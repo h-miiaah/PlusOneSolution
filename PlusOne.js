@@ -26,5 +26,6 @@
 - Check if the last digit is 9. If it is, we set it to 0 and carry 1 to the next digit.
 - If the carry is 1 after this step, it means that all digits are 9. In this case, we prepend a 1 to the beginning of the array and we are done.
 - If the carry is 0, it means that there is a 1 in some digit. We just increment that digit and we are done.
+- Finally we return the updated digits array.
 
 */
