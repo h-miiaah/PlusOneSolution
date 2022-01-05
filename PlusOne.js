@@ -22,7 +22,8 @@
 
 /*
 
--We start with the last digit of the number and work our way up.
+- We start with the last digit of the number and work our way up.
+- Check if the last digit is 9. If it is, we set it to 0 and carry 1 to the next digit.
 
 
 */
